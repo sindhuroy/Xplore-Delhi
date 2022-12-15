@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
             margin: 20px;
             margin-top: 25px;
         }
+
         .container {
             margin: 20px;
             background-color: rgba(66, 133, 244, 0.15);
@@ -24,21 +26,25 @@
             width: 56px;
             border-radius: 50%;
         }
+
         .id,
         .email,
         .name {
             display: inline-block;
             font-family: 'Verdana';
         }
+
         .name {
             font-size: 30px;
             position: relative;
             top: -16px;
             margin-left: 5px;
         }
+
         lable {
             font-family: 'Arial Black';
         }
+
         button {
             display: block;
             background-color: #4285F4;
@@ -87,7 +93,7 @@
         window.onload = function () {
             google.accounts.id.initialize({
                 // replace your client id below
-                client_id: "639609669934-eaescllh1k9fpp4nggtdoh1lc0p8kihh.apps.googleusercontent.com",
+                client_id: "362257833522-7nviduobk1tlnhf7q6fad4o0cmur4fhe.apps.googleusercontent.com",
                 callback: handleCredentialResponse,
                 auto_select: true,
                 auto: true
